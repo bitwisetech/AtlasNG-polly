@@ -27,6 +27,9 @@
 #include "Overlays.hxx"
 #include "Geodesy.hxx"
 
+//ab 231101
+#include <simgear/constants.h>
+
 //SG_USING_STD(map);
 using std::map;
 
@@ -113,7 +116,8 @@ Overlays::Overlays( char *fg_root, float scale,
   projection= new Projection;
 
   time_params = new SGTime();
-  time_params->update( 0.0, 0.0, 0, 0 );
+  //ab 231101
+  //time_params->update( 0.0, 0.0, 0, 0 );
 
   mag = new SGMagVar();
 }
@@ -146,6 +150,8 @@ void Overlays::drawOverlays() {
 }
 
 // Shift an angle (radians) by multiples of 2PI into the range [-PI, PI).
+// ab 231101
+#define SGD_2PI      6.28318530717958647692
 static double wrap_angle(double a_rad) {
     double y = fmod(a_rad, SGD_2PI);  /* range (-2PI, 2PI) */
     if      (y < -SGD_PI) y += SGD_2PI;
