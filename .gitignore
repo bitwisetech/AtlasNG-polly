@@ -1,0 +1,7 @@
+Makefile
+src/.deps
+config.log
+config.status
+src/buildmaps.sh
+*.o
+*.so
