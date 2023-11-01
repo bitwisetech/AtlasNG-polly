@@ -31,7 +31,7 @@
 #include <vector>
 #include <list>
 #include <map>
-#include STL_STRING
+#include <string>
 
 #include "Output.hxx"
 #include "Overlays.hxx"

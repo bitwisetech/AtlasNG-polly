@@ -65,7 +65,8 @@
 #include "RenderTexture.h"
 #include "Scenery.hxx"
 #include <vector>
-#include STL_STRING
+#include <string>
+
 
 SG_USING_STD(vector);
 SG_USING_STD(string);

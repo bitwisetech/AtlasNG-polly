@@ -24,6 +24,8 @@
 #include <zlib.h>
 #include <map>
 
+#include <simgear/constants.h>
+
 #include "Overlays.hxx"
 #include "Geodesy.hxx"
 
