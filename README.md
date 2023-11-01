@@ -1,4 +1,4 @@
-# Atlas - a map for FlightGear
+# AtlasNG - a map for FlightGear
 
 This repository is based on Atlas v.0.3.0 downloaded from atlas.sourceforge.net
 It is an attempt to update the code to get it compiling with current versions of
