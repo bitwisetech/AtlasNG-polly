@@ -9,9 +9,9 @@ Anyone is welcome to help.
 ## Quick start
 
 ./configure
- --with-simgear=/some/path/to/install/simgear 
- --with-plib=/some/path/to/install/plib 
- --with-fgbase=/some/path/to/install/flightgear 
+ --with-simgear=/path/to/installed/simgear 
+ --with-plib=/path/to/installed/plib 
+ --with-fgbase=/path/to/installed/flightgear 
  --with-x
 
 make
