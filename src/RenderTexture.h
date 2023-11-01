@@ -52,7 +52,10 @@
 #ifdef UL_GLX
 #  include <X11/Xlib.h>
 #endif
-#include SG_GL_H
+
+//#include SG_GL_H
+#include "/usr/include/GL/gl.h"
+
 #ifdef UL_GLX
 #  include <GL/glx.h>
 #endif

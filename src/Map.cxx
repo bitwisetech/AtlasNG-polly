@@ -39,7 +39,9 @@
 #include <plib/ul.h>
 
 #include <simgear/compiler.h>
-#include SG_GL_H
+//#include SG_GL_H
+#include "/usr/include/GL/gl.h"
+
 #ifdef UL_GLX
 #  define GLX_GLXEXT_PROTOTYPES
 #  ifdef __APPLE__
@@ -50,7 +52,9 @@
 #elif defined UL_WIN32
 #  include <windows.h>
 #endif
-#include SG_GLUT_H
+//#include SG_GLUT_H
+#include </usr/include/GL/glut.h>
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <sys/stat.h>

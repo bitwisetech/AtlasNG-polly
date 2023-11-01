@@ -1,6 +1,6 @@
 /*
  *
- * Copyright (c) 2001 César Blecua Udías    All Rights Reserved.
+ * Copyright (c) 2001 Cï¿½sar Blecua Udï¿½as    All Rights Reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -38,8 +38,8 @@
 
 #include <simgear/compiler.h>
 
-#include SG_GL_H
-
+//#include SG_GL_H
+#include "/usr/include/GL/gl.h"
 
 #if defined(__cplusplus)
 extern "C" {
