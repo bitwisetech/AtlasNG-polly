@@ -6,6 +6,17 @@ SimGear, FlightGear, updated library APIs (e.g. PNG lib) and modern C++ conventi
 Some progress has been made, but the project still fails to compile cleanly.
 Anyone is welcome to help.
 
+## Quick start
+
+./configure
+ --with-simgear=/some/path/to/install/simgear 
+ --with-plib=/some/path/to/install/plib 
+ --with-fgbase=/some/path/to/install/flightgear 
+ --with-x
+
+make
+
+
 
 ## Original README text follows
 
